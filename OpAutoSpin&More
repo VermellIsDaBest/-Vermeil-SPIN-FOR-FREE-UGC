@@ -24,6 +24,29 @@ KillingCheats:CreateToggle("Auto spin", function(value)
     end
 end)
 
+local KillingCheats = PhantomForcesWindow:NewSection("Shop")
+
+KillingCheats:CreateButton("Buy x2 Luck", function()
+print("Vermeil")
+for i = 1, 1 do
+local args = {
+    [1] = "PurchaseLuck2x"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("CommitAction"):FireServer(unpack(args))
+end
+ end)
+
+KillingCheats:CreateButton("Buy x3 Luck", function()
+for i = 1, 1 do
+local args = {
+    [1] = "PurchaseLuck3x"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("CommitAction"):FireServer(unpack(args))
+end
+ end)
+
 local KillingCheats = PhantomForcesWindow:NewSection("Others")
 
 KillingCheats:CreateButton("Anti AFK", function()
@@ -32,7 +55,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/Proxylol/OtherScript
 end)
 
 KillingCheats:CreateButton("Infinite Yield", function()
-print("Na")
+print("Vermeil")
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
