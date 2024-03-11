@@ -7,7 +7,10 @@ local KillingCheats = PhantomForcesWindow:NewSection("Main")
 
 KillingCheats:CreateToggle("Auto Spin", function(value)
 print(value)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/VermellIsDaBest/Auto-Spin/main/Auto%20Spin"))();
+    _G.Thien = value
+    while _G.Thien == true and task.wait() do
+        spin()
+    end
 end)
 
 local KillingCheats = PhantomForcesWindow:NewSection("Others")
