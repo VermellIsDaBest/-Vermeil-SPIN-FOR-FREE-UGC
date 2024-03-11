@@ -30,4 +30,4 @@ print("HI")
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Proxylol/OtherScripts/main/AntiAfk.lua'),true))()
 end)
 
-local slide1 = PhantomForcesWindow:NewSection("Cre: Vermeil")
+local KillingCheats = PhantomForcesWindow:NewSection("Cre: Vermeil")
