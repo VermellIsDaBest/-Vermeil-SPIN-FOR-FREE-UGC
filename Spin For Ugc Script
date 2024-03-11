@@ -4,14 +4,26 @@ local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/blood
 local PhantomForcesWindow = Library:NewWindow("VERMEIL | SPIN FOR FREE UGC")
 
 local KillingCheats = PhantomForcesWindow:NewSection("Main")
+local slide1 = PhantomForcesWindow:NewSection("Cre: Vermeil")
+--Values elese
+_G.Vermeil = nil
 
-KillingCheats:CreateToggle("Auto Spin", function(value)
-    _G.Thien = value
-    while _G.Thien == true and task.wait() do
+
+
+--funtion
+function spin()
+    game:GetService("ReplicatedStorage").SharedModule.Remotes.Spin:FireServer()
+end
+
+
+
+--tab
+KillingCheats:CreateToggle("Auto spin", function(value)
+    _G.Vermeil = value
+    while _G.Vermeil == true and task.wait() do
         spin()
     end
 end)
-
 local KillingCheats = PhantomForcesWindow:NewSection("Others")
 
 KillingCheats:CreateButton("Anti AFK", function()
