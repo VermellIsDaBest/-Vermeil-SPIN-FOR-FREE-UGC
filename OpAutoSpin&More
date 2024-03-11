@@ -55,6 +55,16 @@ game:GetService("ReplicatedStorage"):WaitForChild("CommitAction"):FireServer(unp
 end
  end)
 
+KillingCheats:CreateButton("Buy Spin Cap", function()
+for i = 1, 1 do
+local args = {
+    [1] = "PurchaseSpinCapIncrease"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("CommitAction"):FireServer(unpack(args))
+end
+ end)
+
 local KillingCheats = PhantomForcesWindow:NewSection("Others")
 
 KillingCheats:CreateButton("Anti AFK", function()
