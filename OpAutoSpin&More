@@ -45,6 +45,7 @@ local KillingCheats = PhantomForcesWindow:NewSection("Cre: Vermeil")
 
 KillingCheats:CreateButton("Click To Copy Link", function()
 print("HI")
+end)
 
 KillingCheats:CreateButton("Join My Discord For Easy UGC", function()
 print("HI")
