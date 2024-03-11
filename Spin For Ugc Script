@@ -6,8 +6,8 @@ local PhantomForcesWindow = Library:NewWindow("VERMEIL | SPIN FOR FREE UGC")
 local KillingCheats = PhantomForcesWindow:NewSection("Main")
 
 KillingCheats:CreateToggle("Auto Spin", function(value)
-    _G.Vermeil = value
-    while _G.Vermeil == true and task.wait() do
+    _G.Thien = value
+    while _G.Thien == true and task.wait() do
         spin()
     end
 end)
