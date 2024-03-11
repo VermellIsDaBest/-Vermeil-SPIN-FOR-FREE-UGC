@@ -17,7 +17,7 @@ end
 
 
 --tab
-KillingCheats:CreateToggle("Auto spin", function(value)
+KillingCheats:CreateToggle("Auto Spin", function(value)
     _G.Vermeil = value
     while _G.Vermeil == true and task.wait() do
         spin()
