@@ -31,3 +31,11 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/Proxylol/OtherScript
 end)
 
 local KillingCheats = PhantomForcesWindow:NewSection("Cre: Vermeil")
+
+KillingCheats:CreateButton("Click To Copy Link", function()
+print("HI")
+
+KillingCheats:CreateButton("Join My Discord For Easy UGC", function()
+print("HI")
+setclipboard("https://discord.gg/GUQWgvMk")
+end)
