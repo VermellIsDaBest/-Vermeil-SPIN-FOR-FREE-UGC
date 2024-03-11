@@ -4,7 +4,6 @@ local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/blood
 local PhantomForcesWindow = Library:NewWindow("VERMEIL | SPIN FOR FREE UGC")
 
 local KillingCheats = PhantomForcesWindow:NewSection("Main")
-local slide1 = PhantomForcesWindow:NewSection("Cre: Vermeil")
 --Values elese
 _G.Vermeil = nil
 
@@ -30,3 +29,5 @@ KillingCheats:CreateButton("Anti AFK", function()
 print("HI")
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Proxylol/OtherScripts/main/AntiAfk.lua'),true))()
 end)
+
+local slide1 = PhantomForcesWindow:NewSection("Cre: Vermeil")
