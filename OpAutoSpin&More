@@ -24,6 +24,14 @@ KillingCheats:CreateToggle("Auto spin", function(value)
     end
 end)
 
+KillingCheats:CreateToggle("Auto Claim Daily Reward", function(value)
+print(value)
+while true do
+game:GetService("ReplicatedStorage"):WaitForChild("ClaimDailyReward"):InvokeServer()
+wait()
+end
+end)
+
 local KillingCheats = PhantomForcesWindow:NewSection("Shop")
 
 KillingCheats:CreateButton("Buy x2 Luck", function()
