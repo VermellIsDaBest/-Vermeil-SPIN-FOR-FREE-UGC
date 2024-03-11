@@ -12,5 +12,6 @@ end)
 local KillingCheats = PhantomForcesWindow:NewSection("Shop")
 
 KillingCheats:CreateButton("Button", function()
-print("HI")
+print("Join My Discord For Easy Ugc!")
+https://discord.gg/8pZf8mZWQk
 end)
