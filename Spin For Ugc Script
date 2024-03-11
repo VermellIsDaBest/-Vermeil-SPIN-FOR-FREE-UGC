@@ -8,10 +8,3 @@ KillingCheats:CreateToggle("Auto Spin", function(value)
 print(value)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/VermellIsDaBest/Auto-Spin/main/Auto%20Spin"))();
 end)
-
-local KillingCheats = PhantomForcesWindow:NewSection("Shop")
-
-KillingCheats:CreateButton("Button", function()
-print("Join My Discord For Easy Ugc!")
-https://discord.gg/8pZf8mZWQk
-end)
