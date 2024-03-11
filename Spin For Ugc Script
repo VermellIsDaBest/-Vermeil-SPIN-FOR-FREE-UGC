@@ -10,7 +10,7 @@ print(value)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/VermellIsDaBest/Auto-Spin/main/Auto%20Spin"))();
 end)
 
-local KillingCheats = PhantomForcesWindow:NewSection("Main")
+local KillingCheats = PhantomForcesWindow:NewSection("Others")
 
 KillingCheats:CreateButton("Anti AFK", function()
 print("HI")
